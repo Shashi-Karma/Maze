@@ -1,0 +1,47 @@
+.action-dropdown-container {
+	position: absolute;
+	border-radius: 14px;
+	margin-left: 89%;
+    margin-top: 0%;
+	background-color: azure;
+	
+	z-index: 1;
+
+	.delete-action {
+		display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-top: 8px;
+    padding-left: 8px;
+    gap: 14px;
+    height: 33px;
+    width: 97px;
+    padding-top: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+	}
+
+	.edit-action {
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+		padding-top: 8px;
+		padding-left: 13px;
+		gap: 14px;
+		height: 44px;
+		width: 136px;
+		padding-top: 10px;
+		padding-right: 10px;
+		cursor: pointer;
+	}
+
+	span {
+		margin-top: 3px;
+		font-family: "Montserrat";
+		font-style: normal;
+		font-weight: 600;
+		font-size: 22px;
+		line-height: 21px;
+		color: rgb(22 14 14 / 60%);
+	}
+}

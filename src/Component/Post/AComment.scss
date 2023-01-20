@@ -1,0 +1,78 @@
+.a-comment-container {
+	.comment-line {
+		margin: 14px 20px 30px 20px;
+		border: 1px solid rgba(0, 0, 0, 0.15);
+	}
+
+	.comment-body-container {
+		.comment-user {
+			font-family: "Montserrat";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 22px;
+		margin-left: 27px;
+		}
+		.comment-threedots {
+			margin-left: 763px;
+			margin-top: -28px;
+			padding: 5px;
+			cursor: pointer;
+		}
+		
+	}
+
+	.comment-body {
+		font-family: "Montserrat";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 22px;
+		color: #606165;
+		position: relative;
+		display: inherit;
+		margin-top: -1%;
+	}
+
+	.comment-info {
+		display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    position: relative;
+    height: 26px;
+    width: 2%;
+    left: 96%;
+    top: -37px;
+	}
+	.comment-time {
+		position: relative;
+		left: 92%;
+        top: -31px;
+		font-family: "Montserrat";
+		font-style: normal;
+		font-weight: 600;
+		font-size: 15px;
+		line-height: 17px;
+		color: rgb(27 27 28 / 60%);
+	}
+	
+}
+.comment-title{
+	display: flex;
+    position: relative;
+    left: 4%;
+    margin-top: -27px;
+}
+.logo4{
+	display: flex;
+	position: relative;
+	left: 21px;
+}
+.comment{
+	display: flex;
+    position: relative;
+    left: 62px;
+    top: 17px;
+}

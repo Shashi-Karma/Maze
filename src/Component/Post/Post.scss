@@ -1,0 +1,161 @@
+.post-title-container {
+	margin: -7px;
+    display: inherit;
+    position: relative;
+    top: -11px;
+    left: 20px;
+}
+
+.post-title {
+	position: relative;
+	display: flex;
+	left: 3%;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 22px;
+	color: #606165;
+	
+
+}
+
+.post-info {
+	display: flex;
+	position:relative;
+	margin-top: 3px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 17px;
+	color: rgba(96, 97, 101, 0.6);
+	left: 46px;
+
+}
+
+.post-threedots {
+	margin-left: 96%;
+    display: flex;
+    position: relative;
+    margin-top: -28px;
+    width: 35px;
+    height: 28px;
+    padding: 0px 0 0 0px;
+    cursor: pointer;
+}
+
+.description {
+	margin: 21px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 21px;
+	color: #606165;
+}
+
+.likes-comments-count {
+	display: inline-block;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 17px;
+	color: rgba(96, 97, 101, 0.6);
+	margin-top: 57px;
+	margin-left: 21px;
+
+	span {
+		padding-right: 15px;
+	}
+}
+
+.line1 {
+	margin: 24px 21px 0px 14px;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.add-like-comment-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0px;
+	gap: 160px;
+	margin-top: 14px;
+	margin-left: 21px;
+
+	
+
+	.add {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		position: relative;
+   		top: -15px;
+	}
+
+	span {
+		margin: 0px 10.5px 0px 10.5px;
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 17px;
+		color: #606165;
+		flex: none;
+		order: 1;
+		flex-grow: 0;
+	}
+}
+
+.line2 {
+	margin: 14px 21px 0px 14px;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.add-a-comment {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	margin-bottom: 55px;
+
+	input {
+		width: 93%;
+		height: 50px;
+		left: 208px;
+		top: 620px;
+		background: #f3f3f3;
+		border: hidden;
+		border-radius: 14px;
+		margin: 20px 19px 0px 9px;
+		padding: 0 0 0 17px;
+		outline: none;
+
+		::placeholder {
+			font-family: 'Montserrat';
+			font-style: normal;
+			font-weight: 500;
+			font-size: 18px;
+			line-height: 22px;
+			color: rgba(96, 97, 101, 0.6);
+		}
+	}
+
+	.add-comment-button {
+		width: 50px;
+		height: 50px;
+		background: #EAF4FF;
+		border-radius: 14px;
+		margin: 20px 20px 0px 0px;
+	}
+
+	.arrow-icon {
+		margin: 18px 18px 18px 18px;
+	}
+}
+.logo2{
+	position: relative;
+    display: flex;
+	top: 37px;
+}

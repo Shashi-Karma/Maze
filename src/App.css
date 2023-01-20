@@ -1,0 +1,165 @@
+.App {
+  text-align: center;
+}
+
+
+/* 
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+} */
+
+#root{
+  margin: -8px;
+}
+
+
+.background{
+  
+  display: flex;
+  min-height:inherit;
+ }
+ .box{
+  height: 943px;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+
+ }
+ .box1{
+  position: absolute;
+    display: flex;
+    justify-content: center;
+    left: 775px;
+    top: 400px;
+ }
+ .button{
+  display: flex;
+    position: relative;
+    left: -63px;
+    top:25px
+}
+.button1{
+  display: flex;
+    position: relative;
+    left: -5px;
+    top:25px
+}
+/* .text{
+  display: flex;
+  position: relative;
+  left: -34px;
+  color: white;
+} */
+.text{
+  position: absolute;
+  left: -83px;
+  top: -261px;
+  width: 466px;
+  display: flex;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 150%;
+/* or 60px */
+
+text-align: center;
+letter-spacing: 0.01em;
+
+/* White */
+
+color: #FFFFFF;
+}
+.text1{
+  position: absolute;
+  left: 61px;
+  top: -42px;
+  display: flex;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 150%;
+/* identical to box height, or 30px */
+
+text-align: center;
+letter-spacing: 0.01em;
+
+/* White */
+
+color: #FFFFFF;
+}
+.text2{
+  position: absolute;
+left: 32.58%;
+right: 49.38%;
+top: 48.24%;
+bottom: 49.71%;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 150%;
+/* identical to box height, or 21px */
+
+text-align: center;
+letter-spacing: 0.01em;
+
+/* White */
+
+color: #FFFFFF;
+}
+.MuiButtonBase-root{
+  color: rgba(0, 0, 0, 0.87);
+    padding: 17px 27px;
+    font-size: 0.875rem;
+    min-width: 61px;
+    box-sizing: border-box;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    line-height: 1.75;
+    border-radius: 4px;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+}
+.container{
+  margin-top: 87px;
+  position: relative;
+  display:flex;
+  width: 500px;
+  left: 837px;
+  top: 102px;
+  border-radius: 10px;
+}
+.container2{
+  margin-top: 50px;
+  background-color: #fff;
+  position: relative;
+  display: grid;
+  color: #ffffff;
+  width: 600px;
+  left:-20px ;
+  background: linear-gradient(152.97deg, rgba(255, 255, 255, 0.397) 0%, rgba(255, 255, 255, 0) 100%);
+backdrop-filter: blur(21px);
+  box-shadow: 0px 4px 18px rgba(211, 203, 203, 0.877);
+  border-radius: 10px;
+}
+.signup{
+  width: 206px;
+		height: 48px;
+		font-weight: 450;
+		font-size: 14px;
+		line-height: 17px;
+		letter-spacing: 0.03em;
+}

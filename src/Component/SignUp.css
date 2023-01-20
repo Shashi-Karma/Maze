@@ -1,0 +1,75 @@
+.box3 {
+
+    
+  position: absolute;
+  display: flex;
+  width: 1331px;
+  height: 73%;
+  left: 14%;
+  top: 12%;
+
+  background: linear-gradient(
+    152.97deg,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  backdrop-filter: blur(21px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 16px;
+  align-items: center;
+}
+.h2 {
+  color: white;
+}
+.box4 {
+  display: flex;
+  position: absolute;
+  left: 353px;
+  color: white;
+}
+.Textfield {
+  color: white;
+  background-color: aqua;
+}
+.MuiOutlinedInput-input {
+  box-sizing: border-box;
+  background-color: white !important;
+  border: 1px solid #d1d1d1;
+  border-radius: 5px;
+}
+.signup-checkbox {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	margin-top: 1%;
+	gap: 20px;
+	color: white;
+}
+
+.already-login {
+	position: relative;
+	margin-top: 2%;	
+	color: #FFFFFF;
+	display: flex;
+	
+}
+a {
+    margin-left: 3px;
+    color: #007AFF;
+}
+.signup-login-button {
+	margin-top: 2%;
+	width: 206px;
+    height: 48px;
+    top: 10px;
+
+}
+.login{
+    width: 206px;
+		height: 48px;
+		font-weight: 450;
+		font-size: 14px;
+		line-height: 17px;
+		letter-spacing: 0.03em;
+}
